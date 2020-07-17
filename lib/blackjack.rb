@@ -40,6 +40,7 @@ def hit?(current_total)
     deal_card + current_total
   else
     invalid_command
+    prompt_user
   end
 end
  
