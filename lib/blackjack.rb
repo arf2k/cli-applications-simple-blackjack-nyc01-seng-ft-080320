@@ -38,6 +38,8 @@ def hit?(current_total)
     deal_card + current_total
   elsif user_input == "s"
     current_total
+  else
+    invalid_command
   end
 end
  
